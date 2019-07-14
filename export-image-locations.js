@@ -6,7 +6,6 @@ const _ = require('lodash')
 
 const baseUrl = 'http://www.digitalhorizonsonline.org'
 const infoUrl = '/digital/api/collections/ndsl-books/items/27499/false'
-const getDownloadUrl = id => `/api/collection/ndsl-books/id/${id}/download`
 const getImageUrl = id => `http://www.digitalhorizonsonline.org/digital/api/singleitem/image/ndsl-books/${id}/default.jpg`
 
 const main = () =>
